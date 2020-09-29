@@ -17,7 +17,7 @@ resource "aws_instance" "my_ec2" {
   vpc_security_group_ids = [aws_security_group.demo_1.id]
 
   tags = {
-    Name        = "First Terraform node"
+    Name        = "My First Terraform node"
     Provisioner = "Terraform"
   }
 }
